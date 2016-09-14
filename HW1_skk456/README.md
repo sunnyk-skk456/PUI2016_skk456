@@ -10,6 +10,7 @@ Also, Adriano made the changes in my repository gittest_skk456 for file myfirstf
 
 
 Assignment 02 - 
+The environment variable "$PUI2016" and the an alias for "pui2016" are defined in the .bashrc file in my skk456 directory in the compute environment. Please refer to the attached images below for details.
 
 
 - ![HW01_Assignment01_Bash1](https://github.com/sunnyk82/PUI2016_skk456/blob/master/HW1_skk456/HW01_Assignment01_Bash1.jpg)
