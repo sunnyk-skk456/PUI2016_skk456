@@ -1,16 +1,8 @@
 # Author: Sunny Kulkarni (skk456), NYU, September 20
 ##############################
-# Code written to demonstrate ho to pass arguments to a python script
-# for HW2
+# Code written to pull data from MTA website and display Bus Name, Active Buses and their latitude and longitude positions.
 ##############################
-# put your name as input argument:
-# i.e. run the code as
-#      python aSimplePythonScript.py Dr.Bianco
-# notice that your name should be
-
-# the next line import packages that change the python 2 print function       
-# so that it require the same syntax as python 3                               
-# thus the code will work both in python 2 and python 3                        
+                        
 from __future__ import print_function
 # the next import allows me to read line input arguments                       
 import sys
@@ -24,37 +16,38 @@ except ImportError:
     import urllib.request as urllib
 
 
-#def get_jsonparsed_data(url):
+# To run this code - 
+#    python show_bus_locations_skk456.py <MTA_KEY> <BUS_LINE>
 
-# this line checks how many arguments are passed to python
-# the arguments are stored in sys.argv which is a list
-# the first argument is the name of the code
-# so sys.argv is a list with at least one element
-# with your name in input it will be a list of 2
-# if you add more than one word as argument it will give you an error as well
+# If 2 arguments are not found, code gives error and describes the issue.
 
 if not len(sys.argv) == 3:
     print("Invalid number of arguments. Run as: python show_bus_locations_skk456.py <MTA_KEY> <BUS_LINE>")
     sys.exit()
 
-# this line prints Hallo and then your name
-# which you provide as argument
+# Store the MTA URL in variable v_mtaurl
 
 v_mtaurl = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" + sys.argv[1] + "&VehicleMonitoringDetailLevel=calls&LineRef=" + sys.argv[2]
 
 jsonurl = urllib.urlopen(v_mtaurl)
 
+# The data from the URL is stored in variable v_text
 v_data = jsonurl.read().decode("utf-8")
 v_text = json.loads(v_data)
 
+# Get the list in variable v_buses
 v_buses = v_text['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
 
+# Get the number of buses in variable v_busno
 v_busno = np.size(v_text['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity'])
 
 print("Bus Line : " + sys.argv[2])
 print("Number of Active Buses : %d" %(v_busno))
 
 for i in range(v_busno):
+    # Store latitude information in variable v_lat
     v_lat = v_buses[i]['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
+    # Store longitude information in variable v_lon
     v_lon = v_buses[i]['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
+    #  Print the information on the screen for all the active buses.
     print("Bus %d is at latitude %f and longitude %s" %(i,v_lat,v_lon))
