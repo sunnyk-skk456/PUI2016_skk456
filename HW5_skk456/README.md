@@ -16,7 +16,9 @@
   
 ### Assignment 3: Practice formulating the null hypothesis
  - For the 4 experiments Null Hypothesis (H0) is documented in text and formulae.
- 
+
+
+### Dr. Federica and Lab TA's - Himanshu K. and Sabreen S. are added as Collaborators to my Github Repository - PUI2016_skk456
  
 #### Note - I have worked along with Chenxi Cui (cc5219) for this assignment.
- 
+
