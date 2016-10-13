@@ -7,7 +7,7 @@
  - Reasoning is provided if Null Hypothesis is accepted or rejected.
  
  
- ### Assignment 2: Line fitting and data munging with income gender bias.
+### Assignment 2: Line fitting and data munging with income gender bias.
  - Gender Income Gap is evaluated in this exercise.
  - In Exploratory Phase, scatter_matrix function from pandas is used to understand relationship within data.
  - Total Median Income for females and males is checked to see how they relate to each other.
@@ -18,5 +18,5 @@
  - For the 4 experiments Null Hypothesis ($H_0$) is documented in text and formulae.
  
  
-### I have worked along with Chenxi Cui (cc5219) for this assignment.
+#### Note - I have worked along with Chenxi Cui (cc5219) for this assignment.
  
