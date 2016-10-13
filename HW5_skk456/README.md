@@ -3,7 +3,7 @@
 ### Assignment 1: Compare Tests for Goodness of fit (on real data)
  - Used KS Test and AD test
  - Tested for Normal and Exponential Distribution
- - Null Hypothesis $H_0$ is formulated for each test.
+ - Null Hypothesis H0 is formulated for each test.
  - Reasoning is provided if Null Hypothesis is accepted or rejected.
  
  
@@ -15,7 +15,7 @@
  - Stipend value is assumed for men and a prediction is made that women would be paid less for the same positions.
   
 ### Assignment 3: Practice formulating the null hypothesis
- - For the 4 experiments Null Hypothesis ($H_0$) is documented in text and formulae.
+ - For the 4 experiments Null Hypothesis (H0) is documented in text and formulae.
  
  
 #### Note - I have worked along with Chenxi Cui (cc5219) for this assignment.
