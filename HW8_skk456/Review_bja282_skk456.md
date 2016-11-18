@@ -13,6 +13,6 @@ I understand you have evaluated the Trip Duration for the Age of the Subscriber 
 
 4) You have provided Title for this plot. In addition, providing Figure number and details below the plot would be a good practice. This caption can cite the restrictions you have applied in the code.
 
-5) I also recommend that you provide your take and conclusion below the graph. This will complete the message that you want to convey through your scatter plot. In addition to functional explanation, also provide footnote technicalities and why you chose Scatter plot for this specific type of analysis over other plotting options.
+5) I also recommend that you provide your take and conclusion below the graph. This will complete the message that you want to convey through your plot.
 
 Thank you.

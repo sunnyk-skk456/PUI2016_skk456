@@ -1,6 +1,6 @@
 Hello Pooneh, Good job on plotting the Analysis of the Different types of Pets in the Residential Buildings in NYC to conclude that Dogs are more in number (on average) than other types of pets.
 
-![](pf910_1.PNG)
+![](pf910_1.png)
 
 # Comments:
 
@@ -14,7 +14,5 @@ Hello Pooneh, Good job on plotting the Analysis of the Different types of Pets i
 The Figure details provide your conclusion from the analysis - this is a good practice. Minor suggestion - Make it bold and increase font size proportionate to the graph.
 
 5) For ease in readability, I recommend to use the X Axis - Pet Names to be at 45 degree angle instead of showing it vertically. 
-
-6) Considering this graph is intended for a Client who could be Manager, Reader or any person intending to use it, I suggest that you should give attention to finer details. Some e.g. - Use 'Number' instead of '#' in Y Axis caption, use word 'Pets' instead of word 'animals'. These may seem small suggestions but if the work is intended for external audience, I believe attention needs to be given to finer details on the presentation front.
 
 Thank you.
