@@ -10,3 +10,6 @@ I worked with Shalmali Kulkarni (sck408) to test the null hypothesis and write a
 
 Note:
 I and Shalmali worked on verifying the t-test program and validated the results on her computer. For unknown reason, the code is giving issue on my computer. I plan to meet and discuss this issue with the TA. 
+
+
+# FBB very good, see some comments in the Authorea article
